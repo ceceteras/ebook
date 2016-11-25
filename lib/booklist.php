@@ -210,7 +210,7 @@ if (isset($_SESSION['unknown_user'])){
           $bookid =$row['book_id'];
                 ?>
 
-            <input type="hidden" id="bookid_<?php echo $bookid ?>" > <?php echo $bookid ?>
+            <div type="hidden" id="bookid-". $row['book_id'] .""><?php echo $bookid ?></div>
             <div  align="center" class="book-row">            
             <a href="details.php?id=<?php echo $bookid;  ?>">
              <img  style=" border-radius:1px;" src="<?php echo $row['pic'] ?>" width="130" height="180"></a>
