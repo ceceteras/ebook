@@ -1,0 +1,664 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing:border-box;
+	
+}
+
+body{
+	margin:0;
+}
+
+table {
+    border-collapse:collapse;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+
+tr td {
+    border: 1px solid #ccc !important;
+    text-align: center;
+    font-size:12px;
+    
+}
+
+th{
+    border: 1px solid #ccc !important;
+    text-align: center;
+    font-size:12px;
+    background-color:rgba(0, 128, 0, 0.51);
+    color:white;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+li{
+text-align: left;
+}
+
+#container{	
+	margin-right: auto;
+    margin-left: auto;
+   
+	}
+
+#header{
+	padding-left: 80px;
+    padding-right: 80px;
+    height:40px;
+
+	}
+
+    /* header nav top*/
+.topnavspan{
+	float:right !important; 
+
+	}	
+
+.topnavul{
+	list-style: none;
+    display: inline-flex;
+    float:right;
+	}
+
+.topnavli{
+	margin-left: 7px;
+ 	color:#00c2ba;
+ 	font-family: 'Raleway', sans-serif;
+ 	font-size: smaller;
+	}
+
+.topnavlileft{
+	margin-left: 20px;
+    color:#00c2ba;
+	}
+
+.mainheader{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #00c2ba;
+    height: 100px;
+	}
+
+
+.title{
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 110px;
+     }
+
+.search-bar{
+	width: 400px;
+    padding: 14px;
+    border-radius: 20px;
+    margin-top: 9px;
+    border: none;
+    outline: none;
+
+	}
+
+.headernavul{
+	list-style: none;
+    display: inline-flex;
+    margin-left: 50px;
+	margin-top:inherit;
+    
+	}
+
+ .activenav{
+	margin-left: 40px;
+    color:#00c2ba;
+    font-family: 'Raleway', sans-serif;
+    line-height: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 0px;
+    outline: none;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: none;
+    display: block;
+    position: relative;
+    border-bottom: 3px solid #00c2ba;
+    cursor:text;
+
+
+ }  
+	
+.headernavli{
+    margin-left: 40px;
+    color: rgba(85, 85, 85, 0.85);
+    font-family: 'Raleway', sans-serif;
+    line-height: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 0px;
+    outline: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: none;
+    display: block;
+    position: relative;
+   
+	}
+
+
+.headernavli:hover{
+	 border-bottom: 3px solid #00c2ba;
+	 color: #00c2ba;
+	 font-weight: bold;
+	 cursor:pointer;
+	 transition: all 200ms ease 0s;
+
+	}
+
+.carousel{	
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: inherit;
+    height: 880px;
+    background-image: url(../image/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+    }
+
+.carousel_text{    
+    font-size: 41px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    padding-top: 12%;
+    font-family: 'Raleway', sans-serif;
+
+	}
+
+
+.boldfont{
+	font-weight: 500;
+    color: #fff;
+    margin-bottom: 50px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 4;
+    font-family: monospace;
+    font-size: 19px;
+    font-weight: 700;
+	
+			
+		}
+
+
+ .floated-circle {
+	display: inline-block;
+    padding: 65px;
+    text-align:left;
+		   
+		}
+.floated-box {
+    padding: 48px;
+    text-align: justify;
+    font-family: 'Roboto', serif;
+    font-size: 13px;
+    line-height: 2.428571;
+    color: #070b31;
+}
+.pic-box {
+    display: inline-block;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Roboto', serif;
+    font-size: 17px;
+    line-height: 2.428571;
+    color: #070b31;
+}
+
+.box-header{
+	font-weight:bold; 
+	font-size:18px; 
+	font-family: 'Raleway', sans-serif;
+	text-align:left;
+}
+
+	a:link    { background-color:transparent; color:#00c2ba; text-decoration:none}
+	a:visited { background-color:transparent; color:#00c2ba; text-decoration:none}
+	a:hover   { background-color:transparent; color:yellow; text-decoration:none;}
+	a:active  {background-color:transparent; color:green; text-decoration:none}
+
+/*LOGIN*/
+.logintxt{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-bottom:-12px;
+    font-family: 'Raleway', sans-serif;
+	}
+
+
+
+
+.loginbutton{
+
+	width: 100%;
+    height: 47px;
+    padding: 10px;
+    border: 0px;
+	display: block;
+    margin-top: 30px;
+    background-color: #00c2ba;
+    color: #fff;
+    outline: none;
+	}
+
+.loginbutton:hover{
+
+	opacity: 0.8;
+	cursor:pointer;
+	}
+
+	
+.error{
+	display: none;
+    font-size: 12px;
+    color: red;
+    left: 264px;
+    top: 40px;
+		}
+
+/* booklist*/
+.listbox{
+    padding-top: 15px !important;
+    border: 1px solid #ccc;
+    	}
+
+.breadcrumb{
+	list-style: none;
+    display: inline-flex;
+    float:left;
+    margin-left: 40px;
+ 	color:#0c8074;
+ 	font-family: 'Raleway', sans-serif;
+ 	font-size: 14px;
+    margin-bottom:10px
+
+
+	}
+
+.left-nav-list{
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: black;
+    text-decoration: none;
+    display: inline-block;    
+    text-align: center;
+}
+
+.left-nav-list:hover{
+    background-color:green;
+    cursor: pointer;
+    
+}
+
+.left-nav-list:nth-child(even)  { background-color: #f9f9f9;  display: block; padding: 15px 20px; }
+.left-nav-list:nth-child(odd) { background-color:#f1f1f1; display: block;  padding: 15px 20px; }    
+
+.left-nav-listul{
+   margin: 0;
+   margin-left: 20px;
+   width: 220px;
+}
+
+.cart-value{
+    font-size: x-small;
+    color: #070b31;
+    width: 26px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-align: center;
+    padding: 3px;
+}
+
+.btn-lg{
+    cursor:pointer;
+    height: 45px;
+    width: 190px;
+    background-color: #ffc107;
+    color: #fff;
+    padding: 13px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans';
+    font-weight:600;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #00c2ba;color:white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.book-row{
+	display: inline-block;
+    font-size: 12px;
+    padding: 25px;
+   	}
+
+
+/*NEWBOOK*/
+
+/*ammended bootstrap*/
+.form-control {
+    display: block;
+    width: 74%;
+    /* height: 37px; */
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.428571;
+    color: #555;
+    background-color: #fff;
+    /* background-image: none; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}	
+
+
+
+.footerbold{
+
+	font-family: 'Raleway', sans-serif; 
+	text-align: left;
+    letter-spacing: 2px;
+}
+
+.footerbox{
+    font-size: 14px;
+    line-height: 2.428571;
+    color: #fff;
+    padding-top:50px;
+     
+	}
+
+
+.footer{
+	background-color:#131638; 
+	height: 370px;
+	font-family: 'Taviraj', serif;
+	border-bottom: 1px solid #ccc;
+
+		}
+
+.copyright{
+	background-color:#070b31; 
+	height:50px;
+	color:#fff;
+	padding-top:20px;
+	padding-left: -10px;
+	padding-right: -10px;
+	font-family: 'Roboto', serif;
+		}
+
+
+.modal {
+    display:none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+    }
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    top:10%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    height: 160px;
+    font-family: 'Taviraj', serif;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+    }
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+	text-align: center;
+    padding: 2px 16px;
+    color: #ffc107;
+    font-size: 12px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Taviraj', serif;
+}
+
+.modal-body {
+	padding-left: 40px;
+    height: 70px;
+    line-height: 6;
+    font-size: 13px;
+    margin-left: 24px;
+	}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color:#00c2ba;
+    color: white;
+    font-size:12px;
+    height:40px;
+    font-family: 'Taviraj', serif;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.arrow {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.arrow:hover,
+.arrow:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+		
+.box{
+	background-color:teal; 
+	text-align:center;
+	color:#fff;
+	height:50px;
+	margin-bottom:20px;
+		
+}
+	
+			
+			
+		
+		
+			
+		 
+
+        .active3
+		{
+			width:75%;
+			background-color: #0C3;
+			border-radius:5px;
+			text-align:center;
+			color:#FFF;
+			height:40px;
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size:20px;
+			padding-top:3px
+				}
+			
+		#footeer{
+				font-family:Tahoma, Geneva, sans-serif;
+				background-color:#000;
+				height:80px;
+				width:1000px;
+				margin-bottom:0px;
+				
+				
+			}
+		#sly {
+			height: 360px;
+			width: 620px;
+		}
+		.container {
+			background-color: #EFEFEF;
+			height: 150px;
+			
+		
+		}
+		
+		.img {
+			margin: 5px;
+			border: 1px solid #ccc;
+			float: left;
+			width: 140px;
+		}
+		
+		.img:hover {
+			border: 1px solid #777;
+		}
+		
+		
+		
+		/*...................... FORM SETTINGS.............*/
+		
+		
+		
+		.form-group{
+			position:relative;
+			margin-bottom:25px!important;
+			}
+		
+		 .loginbtn:hover{
+			cursor:pointer;
+			opacity:0.5;
+			}
+			
+		
+				
+		}
+			
+		.error2{
+			position: absolute;
+			font-size: 12px;
+			color: red;
+			left: 570px;
+			top: 370px;
+				
+		}
+
+		
